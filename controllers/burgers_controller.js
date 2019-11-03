@@ -8,7 +8,7 @@ router.get("/", function(req, res) {
       let hbsObject = {
         burgers: data
       };
-      console.log(hbsObject);
+      // console.log(hbsObject);
       res.render("index", hbsObject);
     });
   });
@@ -18,7 +18,7 @@ router.get('/api/burgers', function(req, res){
     let hbsObject = {
       burger: data
     }
-    console.log(hbsObject)
+    // console.log(hbsObject)
     res.json(hbsObject)
   })
 })
@@ -31,15 +31,15 @@ router.get('/api/burgers', function(req, res){
     ], function(result) {
       // Send back the ID of the new quote
       res.json({ id: result.insertId });
-      console.log({id: result.insertId})
-      console.log(req.body)
+      // console.log({id: result.insertId})
+      // console.log(req.body)
     });
   });
   
   router.put("/api/burgers/:id", function(req, res) {
     let condition = "id = " + req.params.id;
   
-    console.log("condition", condition);
+    // console.log("condition", condition);
   
     burger.update({
       devoured: req.body.devoured

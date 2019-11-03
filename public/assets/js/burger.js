@@ -15,7 +15,7 @@ $(function() {
         data: eaten
       }).then(
         function() {
-          console.log("changed burger to eaten");
+          // console.log("changed burger to eaten");
           // Reload the page to get the updated list
           location.reload();
         }
@@ -37,7 +37,7 @@ $(function() {
         data: newBurger
       }).then(
         function() {
-          console.log("created new burger");
+          // console.log("created new burger");
           // Reload the page to get the updated list
           location.reload();
         }
@@ -54,7 +54,7 @@ $(function() {
       }).then(
         
         function() {
-          console.log("deleted burger", id);
+          // console.log("deleted burger", id);
           // Reload the page to get the updated list
           location.reload();
         }
