@@ -1,0 +1,44 @@
+body {
+    background: #feca64;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+ol {
+    
+    list-style-position: inside;
+}
+.inline{
+    background: white;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    /* display: inline; */
+    border: black solid 6px;
+}
+
+.readyDiv{
+    width: 700px;
+    margin-right: 150px;
+}
+
+.eatenDiv{
+    width: 700px;
+
+}
+.create-form{
+    text-align: center;
+}
+
+button {
+    margin: 4px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
